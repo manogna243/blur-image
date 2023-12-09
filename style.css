@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+
+}
+.bg{
+    background:url('nature.jpg')no-repeat center;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    filter:blur(100px);
+
+}
+.number{
+    font-size:50px;
+    color:whitesmoke;
+}
